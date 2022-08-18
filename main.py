@@ -1,16 +1,13 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    print('Running Jira REST API.')
+# filling data in json format
+#  * prepare json object and fill it with data
+#  * easy for printing/logging when something went wrong
+#  * keep a few templates for most used cases
+# connecting to JiRA server/cloud
+# printing all JOBS in some topic
+# specify jobs as DONE and TODO
+# making some charts P0, P1, P2 and P3
+#
